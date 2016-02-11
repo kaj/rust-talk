@@ -1,0 +1,6 @@
+[package]
+name = "6_struct"
+version = "0.1.0"
+authors = ["Rasmus Kaj <kaj@kth.se>"]
+
+[dependencies]
