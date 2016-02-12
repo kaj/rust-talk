@@ -25,7 +25,7 @@ fn getuser(id: &str) -> Option<User> {
 fn main() {
     for username in vec!("gurgel", "kaj", "blargel") {
         if let Some(user) = getuser(username) {
-            println!("{} is {:?}.", username, user);
+            println!("{} is {}.", username, user);
         } else {
             println!("{} does not exist.", username);
         }
